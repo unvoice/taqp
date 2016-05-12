@@ -1,0 +1,106 @@
+.btn-hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+.btn-active {
+  background: rgba(255, 255, 255, 0.05);
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1560px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.header {
+  height: auto;
+  width: 100%;
+}
+.header .header-top {
+  height: 80px;
+  width: 100%;
+  background: #333;
+}
+.header .header-top .header-brand {
+  height: 80px;
+  line-height: 80px;
+  float: left;
+  width: 80px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}
+.header .header-top .header-entry {
+  height: 30px;
+  width: 120px;
+  background: #1fbad6;
+  border: none;
+  margin: 25px;
+  float: right;
+  outline: none;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 2px;
+}
+.header .header-top .header-cut {
+  display: block;
+  float: right;
+  color: #bcbcbc;
+  line-height: 80px;
+}
+.header .header-bottom {
+  height: 60px;
+  width: 100%;
+  background: #ffcc33;
+}
+.header .header-bottom .container > li {
+  position: relative;
+  width: 90px;
+  height: 60px;
+  float: left;
+}
+.header .header-bottom .container > li:hover {
+  background: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+.header .header-bottom .container > li:hover .header-nav-box {
+  opacity: 1;
+  display: block;
+  left: 0;
+}
+.header .header-bottom .container > li .header-nav-list {
+  position: relative;
+  float: left;
+  width: 90px;
+  height: 60px;
+  line-height: 56px;
+  text-align: center;
+  color: #333;
+  display: block;
+  text-decoration: none;
+}
+.header .header-bottom .container > li .header-nav-box {
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  opacity: 0;
+  width: 180px;
+  height: auto;
+  background: #ffcc33;
+  color: #333;
+  position: absolute;
+  top: 60px;
+  left: 100%;
+}
+.header .header-bottom .container > li .header-nav-box .header-nav-box-item {
+  width: 150px;
+  height: 40px;
+  padding: 5px 15px;
+  line-height: 40px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+.header .header-bottom .container > li .header-nav-box .header-nav-box-item:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+.header .header-bottom .container > li .header-nav-box .header-nav-box-item:active {
+  background: rgba(255, 255, 255, 0.05);
+}
